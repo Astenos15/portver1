@@ -1,0 +1,15 @@
+CREATE TABLE users (
+ 	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    first varchar (255) not null,
+    last varchar (255) not null,
+    username varchar (255) not null,
+    password varchar (255) not null
+ );
+
+
+
+ 	CREATE TABLE profileimg(
+    	id int(11) not null 	PRIMARY KEY	AUTO_INCREMENT,
+        userid int(11) not null,
+        status int(11) not null
+    );
